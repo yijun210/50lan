@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif TC', serif, "微軟正黑體";
+    font-size: 18px;
+}
+body{
+    background-color: #FFFDE7;
+}
+/* navbar */
+.nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-color: #FFF001;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 20px;
+}
+
+.navbar-nav li a {
+    color: #015EAC !important;
+    font-size: 18px;
+    float: right;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+/* banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* container */
+.container{
+    padding-top: 20px;
+    padding-bottom:40px ;
+}
+.title{
+    color: #015EAC;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;   
+}
+.container-title{
+    font-size: 18px;
+}
+.img-fluid{
+    justify-content: center;
+    border-radius: 10px;
+
+}
+/* bottom */
+.footer_bg {
+    background-color: #015EAC;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 70%;
+    color: #fff;
+    text-align: center;
+}
