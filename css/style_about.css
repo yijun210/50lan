@@ -6,9 +6,6 @@
     font-family: 'Noto Serif TC', serif, "微軟正黑體";
     font-size: 18px;
 }
-body{
-    background-color: #FFFDE7;
-}
 /* navbar */
 .nav-bar {
     position: sticky;
@@ -49,8 +46,7 @@ body{
 
 /* container */
 .container{
-    padding-top: 20px;
-    padding-bottom:40px ;
+    padding: 20px;
 }
 .title{
     color: #015EAC;
@@ -65,7 +61,9 @@ body{
 .img-fluid{
     justify-content: center;
     border-radius: 10px;
-
+}
+.about_container{
+    background-color: #eee;
 }
 /* bottom */
 .footer_bg {
