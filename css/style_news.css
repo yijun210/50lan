@@ -60,6 +60,17 @@
     padding: 20px;
     
 }
+.img-fluid{
+    border-radius: 10px;
+}
+.img-fluid:hover{
+    cursor: pointer;
+    border: 1px solid #015EAC;
+    transform: scale(1.05);
+    box-shadow:0 0 10px #015EAC;
+    opacity: 80%;
+}
+
 /* bottom */
 .footer_bg{
     background-color: #015EAC;
