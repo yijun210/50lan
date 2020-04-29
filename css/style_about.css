@@ -88,7 +88,11 @@
 label {
     color: #fff;
 }
-
+.hrdivider{
+    width:100%;
+    border-top: 3px double #015EAC;
+    border-bottom: 1px solid #015EAC;
+}
 input,
 textarea {
     background-color: #fff;
