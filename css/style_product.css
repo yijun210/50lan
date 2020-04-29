@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft JhengHei";
+    font-size: 18px;
+}
+
+
+/* navbar */
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-color: #FFF001 !important;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 20px;
+}
+.navbar-nav li a{
+    color: #015EAC !important;
+    font-size: 18px;
+    float: right;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+/* banner */
+
+.banner_img{
+    max-width: 100%;
+    width: 100%;
+    height: auto; 
+}
+/* container */
+.news_container{
+    padding: 20px 100px;
+}
+.title{
+    color: #015EAC;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;   
+}
+.row_container{
+    padding: 0 50px;
+    float: right;
+}
+.container_pic{
+    border-radius: 10px;
+    border-width: 100px;
+}
+.img-fluid{
+    border-radius: 10px;
+}
+.img-fluid:hover{
+    cursor: pointer;
+    border: 1px solid #015EAC;
+    transform: scale(1.05);
+    box-shadow:0 0 10px #015EAC;
+    opacity: 80%;
+}
+
+/* bottom */
+.footer_bg{
+    background-color: #015EAC;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.hrdivider{
+    width:100%;
+    border-top: 3px double #015EAC;
+    border-bottom: 1px solid #015EAC;
+}
+
+.footer_p{
+    font-size: 60%;
+}
+
+.p{
+    color: #015EAC;
+    text-align: center; 
+    padding-top: 25px;
+    color: #000;
+}
+
+.button {
+    background-color: #015EAC;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.btncontainer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.bluetxt{
+    color: #015EAC;
+}
+
+.col-sm-2{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.col-sm-2 ul{
+    font-size: 17px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-sm-2 ul{
+        text-align: center;
+    }
+    
+    .col-sm-2{
+        margin-bottom: 50px;
+    }
+}
