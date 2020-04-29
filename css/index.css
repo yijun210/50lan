@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif TC', serif, "微軟正黑體";
+    font-size: 18px;
+}
+
+
+/* navbar */
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-color: #FFF001;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 20px;
+}
+.navbar-nav li a{
+    color: #015EAC !important;
+    font-size: 18px;
+    float: right;
+    text-align: left;
+    text-transform: uppercase;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/* banner */
+
+.banner_img{
+    max-width: 100%;
+    width: 100%;
+    height: auto; 
+}
+.containers{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+}
+/*title*/
+.title{
+    
+    width: 100%;
+    color: #015EAC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.line1
+{
+    width: 95%;
+    height:0.3px;
+    margin-bottom: 0px;
+    background-color:#015EAC ;
+}
+.line2
+{
+    width: 95%;
+    height:0.5px;
+    
+    background-color:#015EAC ;
+}
+/*news*/
+.n_row1 ,.n_row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.n_row1 img{
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 10%;
+    border-style: solid;
+    border-color: #015EAC;
+}
+.n_row2 img{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 10%;
+    border-style: solid;
+    border-color: #015EAC;
+}
+/*下拉*/
+.selctors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.selctors select{
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    text-align-last: center;
+    margin-left:150px ;
+    margin-right:150px ;
+    width: 30%;
+}
+/* bottom */
+.footer_bg{
+    background-color: #015EAC;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 70%;
+    color: #fff;
+    text-align: center;
+}
