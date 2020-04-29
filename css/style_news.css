@@ -3,7 +3,7 @@
     padding: 0px;
     outline: 0;
     box-sizing: border-box;
-    font-family: 'Noto Serif TC', serif, "微軟正黑體";
+    font-family: "Microsoft JhengHei";
     font-size: 18px;
 }
 
@@ -14,9 +14,11 @@
     top: 0;
     z-index: 10;
 }
+
 .navbar{
-    background-color: #FFF001;
+    background-color: #FFF001 !important;
 }
+
 .navbar-brand img{
     height: 40px;
     padding-left: 20px;
@@ -30,6 +32,7 @@
     float: right;
     text-align: left;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .navbar-toggler{
     outline: none !important;
@@ -48,7 +51,7 @@
 .title{
     color: #015EAC;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: 900;   
 }
@@ -57,8 +60,9 @@
 }
 .container_pic{
     border-radius: 10px;
-    padding: 20px;
-    
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
 }
 .img-fluid{
     border-radius: 10px;
@@ -79,4 +83,48 @@
     font-size: 70%;
     color: #fff;
     text-align: center;
+}
+
+.hrdivider{
+    width:100%;
+    border-top: 3px double #015EAC;
+    border-bottom: 1px solid #015EAC;
+}
+
+.footer_p{
+    font-size: 60%;
+}
+
+.p{
+    color: #015EAC;
+    text-align: center; 
+    padding-top: 25px;
+    color: #000;
+}
+
+.button {
+    background-color: #015EAC;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.btncontainer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-sm-2 ul{
+        text-align: center;
+    }
+    
+    .col-sm-2{
+        margin-bottom: 50px;
+    }
 }
