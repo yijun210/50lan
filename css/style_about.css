@@ -3,8 +3,10 @@
     padding: 0px;
     outline: 0;
     box-sizing: border-box;
-    font-family: 'Noto Serif TC', serif, "微軟正黑體";
+    font-family: "Microsoft JhengHei";
+    font-size: 18px;
 }
+
 
 /* navbar */
 .nav-bar {
@@ -14,7 +16,7 @@
 }
 
 .navbar {
-    background-color: #FFF001;
+    background-color: #FFF001 !important;
 }
 
 .navbar-brand img {
@@ -22,7 +24,7 @@
     padding-left: 20px;
 }
 
-.navbar-nav li {
+.navbar-nav li{
     padding: 0 20px;
 }
 
@@ -32,6 +34,7 @@
     float: right;
     text-align: left;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .navbar-toggler {
@@ -56,6 +59,12 @@
     font-size: 40px;
     text-align: center;
     font-weight: 900;
+}
+
+.hrdivider{
+    width:100%;
+    border-top: 3px double #015EAC;
+    border-bottom: 1px solid #015EAC;
 }
 
 .container-title {
@@ -101,4 +110,8 @@ textarea {
     font-size: 70%;
     color: #fff;
     text-align: center;
+}
+
+.footer_p{
+    font-size: 60%;
 }

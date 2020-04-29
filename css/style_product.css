@@ -34,6 +34,7 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .navbar-toggler{
     outline: none !important;
 }
@@ -57,12 +58,11 @@
 }
 .row_container{
     padding: 0 50px;
+    float: right;
 }
 .container_pic{
     border-radius: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 15px;
+    border-width: 100px;
 }
 .img-fluid{
     border-radius: 10px;
@@ -80,7 +80,6 @@
     background-color: #015EAC;
     padding-top: 15px;
     padding-bottom: 5px;
-    font-size: 70%;
     color: #fff;
     text-align: center;
 }
@@ -117,6 +116,20 @@
     width: 100%;
     margin: auto;
     text-align: center;
+}
+
+.bluetxt{
+    color: #015EAC;
+}
+
+.col-sm-2{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.col-sm-2 ul{
+    font-size: 17px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
