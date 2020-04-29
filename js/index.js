@@ -26,7 +26,7 @@ $(document).ready(function(){
     changeCitys(document.getElementById("city-list").selectedIndex);
     document.getElementById("city-list").onchange=function(){changeCitys(document.getElementById("city-list").selectedIndex)}
 
-    /*最新消息*/
+    /*最新消息
     var news_imgs=["news1_pic.jpg","news2_pic.jpg","news3_pic.jpg","news4_pic.jpg","news5_pic.jpg","news6_pic.jpg","news7_pic.jpg","news8_pic.jpg"]
    
     var row1Select=document.getElementById("n_row1");
@@ -40,6 +40,6 @@ $(document).ready(function(){
     for(var i=2;i<4;i++){
         inner2=inner2+`<img src="../images/${news_imgs[i]}" >`
     }
-    row2Select.innerHTML=inner2;
+    row2Select.innerHTML=inner2;*/
 
 })

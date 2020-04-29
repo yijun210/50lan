@@ -93,8 +93,11 @@ html{
     justify-content: center;
 }
 .selctors select{
-    height: 50px;
+    height: 30%;
     border-radius: 15px;
+    border-style: solid;
+    border-color: #015EAC;
+    font-family: "Microsoft JhengHei";
     text-align: center;
     text-align-last: center;
     margin-left:150px ;

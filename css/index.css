@@ -111,8 +111,9 @@
     justify-content: center;
 }
 .selctors select{
-    height: 50px;
-    border-radius: 15px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 500px;
     text-align: center;
     text-align-last: center;
     margin-left:150px ;
