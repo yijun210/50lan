@@ -86,8 +86,8 @@ html{
 }
 /*下拉*/
 .selctors{
-	padding-top: 20px;
-    display: flex;
+	padding-top: 15px;
+	display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -100,20 +100,8 @@ html{
     font-family: "Microsoft JhengHei";
     text-align: center;
     text-align-last: center;
-    margin-left:150px ;
-    margin-right:150px ;
-    width: 30%;
+    width: 50%;
 }
-/* product */
-
-.card1 {
-	background-color: #ffffff;
-	padding: 10px 10px;
-	margin: 10px 10px; 
-}
-
-
-
 
 /* aboutus */
 .about_container{
